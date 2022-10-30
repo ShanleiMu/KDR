@@ -19,13 +19,6 @@ def set_rng_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 
-def set_rng_seed_tf(seed):
-    import tensorflow as tf
-    random.seed(seed)
-    np.random.seed(seed)
-    tf.set_random_seed(seed)
-
-
 def set_device(gpu_id):
     if gpu_id == -1:
         return torch.device('cpu')

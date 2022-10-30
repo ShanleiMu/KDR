@@ -10,7 +10,7 @@ import importlib
 
 from base.init_parser import init_parser
 from base.base_trainer import BaseTrainer
-from base.utils import set_rng_seed, set_rng_seed_tf, \
+from base.utils import set_rng_seed, \
     set_device, get_saved_file, get_saved_path, get_result_file, get_already_paras
 
 
